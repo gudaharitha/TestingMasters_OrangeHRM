@@ -232,7 +232,7 @@ public class Pg107_Qualification
 		ReportLibrary.reportEvent(stepstatus, "Able to enter comments", "Unable to enter comments");
 	}
 	
-	public void clickonskillsave()
+	public void clickonskillssave()
 	{	
 		stepstatus = WebLibrary.clickElement(save);
 		ReportLibrary.reportEvent(stepstatus, "Able to clik on save", "Unable to click on save");
