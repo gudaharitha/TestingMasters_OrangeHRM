@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testScripts.Module1_contactdetails">
+        <methods>
+          <include name="aftersuite"/>
+          <include name="beforemethod"/>
+          <include name="TC101_ContactDetails_EditValuesAndSave"/>
+          <include name="beforesuite"/>
+          <include name="aftermethod"/>
+        </methods>
+      </class> <!-- testScripts.Module1_contactdetails -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

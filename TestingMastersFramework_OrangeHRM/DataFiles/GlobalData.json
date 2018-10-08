@@ -1,0 +1,7 @@
+{
+	"BrowserName":"chrome",
+	"BaseURL":"http://www.testingmasters.com/hrm/symfony/web/index.php/auth/login",
+	"Username":"ankit3",
+	"Password":"abcd1234",
+	"EmailRecepientList":"tmasters.ankit@gmail.com"
+}
