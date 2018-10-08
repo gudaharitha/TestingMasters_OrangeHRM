@@ -244,17 +244,17 @@ public class Pg107_Qualification
 		ReportLibrary.reportEvent(stepstatus, "Able to click on Add language", "Unable to click on Add languages");
 	}
 	
-//	public void setGPA(String strGPA)
-//	{	
-//		stepstatus = WebLibrary.setText(GPA, strGPA);
-//		ReportLibrary.reportEvent(stepstatus, "Able to enter GPA score", "Unable to enter GPA score");
-//	}
-//	
-//	public void setGPA(String strGPA)
-//	{	
-//		stepstatus = WebLibrary.setText(GPA, strGPA);
-//		ReportLibrary.reportEvent(stepstatus, "Able to enter GPA score", "Unable to enter GPA score");
-//	}
+	public void setGPA(String strGPA)
+	{	
+		stepstatus = WebLibrary.setText(GPA, strGPA);
+		ReportLibrary.reportEvent(stepstatus, "Able to enter GPA score", "Unable to enter GPA score");
+	}
+	
+	public void setGPA1(String strGPA)
+	{	
+		stepstatus = WebLibrary.setText(GPA, strGPA);
+		ReportLibrary.reportEvent(stepstatus, "Able to enter GPA score", "Unable to enter GPA score");
+	}
 	
 	
 	
